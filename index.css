@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: #1a1a1c !important;
+    color: #c7c7c8 !important;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    border-bottom: 1px solid #ddd;
+    padding-top: 22px;
+    padding-bottom: 22px ;
+}
+.image{
+    width : 31px; height : 32px;
+    padding-bottom: 2px;
+}
+.imagePara{
+    padding-top : 2px;
+    margin-bottom: 0;
+}
+.divImgPara{
+    display : flex; 
+    align-items : center; 
+    gap: 10px;
+}
+.profit{
+ color : #63d141;
+}
+.loss{
+    color : #D51D0E;
+}
+.pl-6{
+    padding-left: 4.4rem;
+}
+.w-60{
+    width: 66%;
+}
+
+.inp{
+    border: 2px solid #6d6d6d;
+    border-radius: 3px;
+    width: 70%;
+    height: 25%;
+    padding: 1rem;
+}
+input{
+    background-color: transparent;
+    color: #c7c7c8;
+    border: none;
+    padding-left: 8px;
+    /* padding: 10px; */
+    width: 92%;
+}
+input:focus{
+    outline: none;
+}
+.btns{
+    background-color: transparent;
+    color: #e0e0e0;
+    border: 2px solid #6d6d6d !important;
+    border-radius: 3px;
+    width: 13%;
+    transition: background-color 0.3s  ease;
+    transition : color 0.3s ease;
+    padding: 1;
+}
+.btns:hover{
+    background-color: #e0e0e0;
+    color: #202022;
+}
+.btns:focus{
+    outline: none;
+}
+
+
+
+@media (max-width: 1470px) {
+    /* Your CSS rules here */
+    .mediaQuery{
+        padding-left: 1rem !important;
+    }
+    .mediaQuery-2{
+        padding-left: 1.5rem !important;
+    }
+}
+@media (max-width: 1024px) {
+    /* Your CSS rules here */
+    .mediaQuery{
+        padding-left: 0.5rem !important;
+    }
+    .mainDiv{
+        /* justify-content:left;
+        align-items: left; */
+        flex-direction: column !important;
+    }
+}
+@media (max-width: 1024px) {
+    /* Your CSS rules here */
+    .mediaQuery{
+        padding-left: 0.5rem !important;
+    }
+    .mainDiv{
+        /* justify-content:left;
+        align-items: left; */
+        flex-direction: column !important;
+    }
+}
+
+
+
+.custom-placeholder::-webkit-input-placeholder {
+    color: #c7c7c8;
+    opacity: 1;
+}
+
+.custom-placeholder::-moz-placeholder {
+    color:#c7c7c8;
+    opacity: 1;
+}
+
+.custom-placeholder:-ms-input-placeholder {
+    color: #c7c7c8;
+    opacity: 1;
+}
+
+.custom-placeholder:-moz-placeholder {
+    color: #c7c7c8;
+    opacity: 1;
+}
